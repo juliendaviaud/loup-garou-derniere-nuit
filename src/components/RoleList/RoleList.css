@@ -19,15 +19,15 @@
 }
 
 .pageTitle {
-  margin-top: 70px;
+  margin-top: 44px;
   font-family: "Raleway", cursive;
   font-weight: 400;
-  font-size: 29px;
+  font-size: 25px;
   color: #fff;
 }
 
 .roleListNameAndIcon {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
 }
@@ -45,7 +45,7 @@
 }
 
 .roleListContainer {
-  width: 292px;
+  /* width: 292px; */
   margin-top: 45px;
   margin-bottom: 5rem;
   /* display: flex;
@@ -57,7 +57,7 @@
 }
 
 .role {
-  width: 127px;
+  width: 105px;
   display: flex;
   flex-direction: column;
   border-radius: 6px;
