@@ -1,0 +1,97 @@
+.roleDetails {
+  width: 100%;
+  height: 100svh;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(16, 30, 54, 0.69);
+}
+
+.roleDetailsCard {
+  width: 90%;
+  /* height: 80%; */
+  max-width: 389px;
+  /* max-height: 697px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #121212;
+  opacity: 100%;
+}
+
+.roleDetailsCardContent {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topCardImageContainer {
+  width: 100%;
+  height: 127px;
+  background-image: url("../../assets/images/card-details-top-image.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* .topCardImage {
+	width: 100%;
+} */
+
+.roleDetailsRoleImage {
+  width: 88px;
+  margin-top: -40px;
+}
+
+.roleDetailsRoleName {
+  margin-top: 24px;
+  margin-bottom: 35px;
+  font-family: "Lato", cursive;
+  font-weight: 400;
+  font-size: 23px;
+  color: #fff;
+}
+
+.roleDetailsTextContainer {
+  height: 372px;
+  margin: 0 50px;
+  overflow: scroll;
+  color: #fff;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.roleDetailsTextContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.roleDetailsTextContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.roleDetailsTextContainer h4 {
+  margin-bottom: 13px;
+  text-align: left;
+  font-family: "Lato", cursive;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.roleDetailsTextContainer p {
+  margin-bottom: 16px;
+  text-align: left;
+  font-family: "Roboto", cursive;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.roleDetailsCardFooter {
+  width: calc(100% - 60px);
+  margin: 30px;
+  display: flex;
+  justify-content: end;
+}

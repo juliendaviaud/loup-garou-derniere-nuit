@@ -1,0 +1,22 @@
+.appContainer {
+  width: 100%;
+  height: 100svh;
+  max-width: 528px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-image: url("../../assets/images/background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.loadingScreen {
+  width: 100%;
+  height: 100svh;
+  position: absolute;
+  z-index: 3;
+  background-image: url("../../assets/images/loading-screen.png");
+  background-size: cover;
+  background-position: center;
+}

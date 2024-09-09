@@ -1,0 +1,50 @@
+.storyContainer {
+  width: 100%;
+  height: 100svh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.storyTextAndTitleContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.storyTitleAndIcon {
+  display: flex;
+  align-items: center;
+}
+
+.storyTitleAndIcon img {
+  margin-right: 13px;
+  height: 25px;
+}
+
+.storyTitleAndIcon h2 {
+  font-family: "Raleway", cursive;
+  font-weight: 400;
+  font-size: 29px;
+  color: #fff;
+}
+
+.storyTextContainer {
+  max-width: 450px;
+  margin: 0 36px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+.storyTextContainer p {
+  font-family: "Roboto", cursive;
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+}
+
+.storyContainer {
+	text-align: left;
+}

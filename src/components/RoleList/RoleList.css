@@ -1,0 +1,78 @@
+.roleListContainerAndTitle {
+  height: calc(100% - 99px);
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* flex-grow: 1; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.roleListContainerAndTitle::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.roleListContainerAndTitle {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.pageTitle {
+  margin-top: 70px;
+  font-family: "Raleway", cursive;
+  font-weight: 400;
+  font-size: 29px;
+  color: #fff;
+}
+
+.roleListNameAndIcon {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.roleListIcon {
+  margin-right: 13px;
+  height: 25px;
+}
+
+.roleListName {
+  font-family: "Raleway", cursive;
+  font-weight: 400;
+  font-size: 23px;
+  color: #fff;
+}
+
+.roleListContainer {
+  width: 292px;
+  margin-top: 45px;
+  margin-bottom: 5rem;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.25rem;
+}
+
+.role {
+  width: 127px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: #000;
+}
+
+.roleImg {
+  width: 127px;
+  border-radius: 6px;
+}
+
+.roleName {
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-family: "Lato", cursive;
+  font-size: 15px;
+  color: #fff;
+}

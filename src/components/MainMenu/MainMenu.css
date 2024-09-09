@@ -1,0 +1,53 @@
+.mainMenuContainer {
+  height: 156px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  /* background-image: url("../../assets/images/main-menu-background.png");
+  background-size: cover;
+  background-position: center; */
+}
+
+.menuItemsContainer {
+  height: 99px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.menuItems {
+  width: 90%;
+  max-width: 350px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuLink {
+  margin-top: 6px;
+  color: #727272;
+  text-decoration: none;
+  font-family: "Lato", cursive;
+}
+
+.menuLinkActivated {
+  color: #fff;
+}
+
+.mainMenuBackground {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  max-width: 430px;
+}
