@@ -35,10 +35,11 @@
 }
 
 .menuLink {
-  margin-top: 6px;
+  margin-top: 8px;
   color: #727272;
   text-decoration: none;
   font-family: "Lato", cursive;
+  font-size: 0.8rem;
 }
 
 .menuLinkActivated {
