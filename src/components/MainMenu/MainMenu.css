@@ -56,6 +56,10 @@
 }
 
 @media screen and (min-height: 325px) and (max-height: 900px) {
+  .mainMenuContainer {
+    height: 110px;
+  }
+
   .mainMenuBackground {
     height: 110px;
   }
