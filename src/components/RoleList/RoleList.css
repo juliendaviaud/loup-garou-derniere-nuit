@@ -1,5 +1,5 @@
 .roleListContainerAndTitle {
-  height: calc(100% - 90px);
+  height: calc(100% - 55px);
   width: 100%;
   overflow: scroll;
   display: flex;
@@ -72,14 +72,95 @@
 
 .roleName {
   margin-top: 4px;
+  margin-right: 4px;
   margin-bottom: 10px;
+  margin-left: 4px;
   font-family: "Lato", cursive;
   font-size: 0.8rem;
   color: #fff;
 }
 
-@media screen and (min-height: 325px) and (max-height: 900px) {
-  .roleListContainerAndTitle {
-    height: calc(100% - 55px);
+@media screen and (max-width: 280px) {
+  .pageTitle {
+    font-size: 1.2rem;
+  }
+
+  .roleListNameAndIcon {
+    margin-top: 14px;
+  }
+
+  .roleListIcon {
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .roleListName {
+    font-size: 1rem;
+  }
+
+  .roleListContainer {
+    margin-top: 28px;
+    gap: 1.25rem;
+  }
+
+  .role {
+    width: 85px;
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 325px) {
+  .pageTitle {
+    font-size: 1.2rem;
+  }
+
+  .roleListNameAndIcon {
+    margin-top: 14px;
+  }
+
+  .roleListIcon {
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .roleListName {
+    font-size: 1rem;
+  }
+
+  .roleListContainer {
+    margin-top: 28px;
+    gap: 1.25rem;
+  }
+
+  .role {
+    width: 89px;
+  }
+}
+
+@media screen and (min-width: 326px) and (max-width: 430px) {
+  .pageTitle {
+    margin-top: 35px;
+    font-size: 1.25rem;
+  }
+
+  .roleListNameAndIcon {
+    margin-top: 20px;
+  }
+
+  .roleListIcon {
+    height: 1.2rem;
+    margin-right: 0.5rem;
+  }
+
+  .roleListName {
+    font-size: 1rem;
+  }
+
+  .roleListContainer {
+    margin-top: 28px;
+    gap: 1.5rem;
+  }
+
+  .role {
+    width: 92px;
   }
 }

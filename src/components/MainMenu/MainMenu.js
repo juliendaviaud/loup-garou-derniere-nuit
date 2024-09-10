@@ -31,22 +31,22 @@ const MainMenu = () => {
               <p className={"menuLink" + (splitLocation[1] === "" ? " menuLinkActivated" : "")}>Village</p>
             </div>
           </Link>
-          <Link to="/enemies">
+          <Link to="/ennemies">
             <div className="menuItem">
-              <img src={splitLocation[1] === "enemies" ? enemiesActivated : enemies} alt="" />
-              <p className={"menuLink" + (splitLocation[1] === "enemies" ? " menuLinkActivated" : "")}>Ennemies</p>
+              <img src={splitLocation[1] === "ennemies" ? enemiesActivated : enemies} alt="" />
+              <p className={"menuLink" + (splitLocation[1] === "ennemies" ? " menuLinkActivated" : "")}>Ennemies</p>
             </div>
           </Link>
-          <Link to="/solitary">
+          <Link to="/solitaires">
             <div className="menuItem">
-              <img src={splitLocation[1] === "solitary" ? solitaryActivated : solitary} alt="" />
-              <Link className={"menuLink" + (splitLocation[1] === "solitary" ? " menuLinkActivated" : "")}>Solitaires</Link>
+              <img src={splitLocation[1] === "solitaires" ? solitaryActivated : solitary} alt="" />
+              <Link className={"menuLink" + (splitLocation[1] === "solitaires" ? " menuLinkActivated" : "")}>Solitaires</Link>
             </div>
           </Link>
-          <Link to="/story">
+          <Link to="/histoire">
             <div className="menuItem">
-              <img src={splitLocation[1] === "story" ? loreActivated : lore} alt="" />
-              <p className={"menuLink" + (splitLocation[1] === "story" ? " menuLinkActivated" : "")}>Histoire</p>
+              <img src={splitLocation[1] === "histoire" ? loreActivated : lore} alt="" />
+              <p className={"menuLink" + (splitLocation[1] === "histoire" ? " menuLinkActivated" : "")}>Histoire</p>
             </div>
           </Link>
         </div>

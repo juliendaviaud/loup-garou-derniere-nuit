@@ -24,21 +24,21 @@ const RoleList = ({ roleListName }) => {
   const [roleDescription, setRoleDescription] = useState("");
 
   useEffect(() => {
-    console.log("useEffect roleListName " + roleListName);
-    console.log("useEffect collectionName " + collectionName);
+    /* console.log("useEffect roleListName " + roleListName);
+    console.log("useEffect collectionName " + collectionName); */
     const getRoleList = async () => {
       // READ THE DATA
       // SET THE ROLE LIST
       try {
         const data = await getDocs(query(roleCollectionRef, orderBy("order")));
-        console.log(data);
-        console.log(collectionName);
+        /* console.log(data);
+        console.log(collectionName); */
         const filteredData = data.docs.map((doc) => ({
           ...doc.data(),
           id: doc.id,
         }));
         setRoleList(filteredData);
-        console.log(filteredData);
+        /* console.log(filteredData); */
       } catch (error) {
         console.error(error);
       }

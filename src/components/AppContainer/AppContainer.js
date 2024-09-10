@@ -25,15 +25,15 @@ const AppContainer = () => {
             element={<RoleList roleListName="village" key="village" />}
           />
           <Route
-            path="/enemies"
+            path="/ennemies"
             element={<RoleList roleListName="enemies" key="enemies" />}
           />
           <Route
-            path="/solitary"
+            path="/solitaires"
             element={<RoleList roleListName="solitary" key="solitary" />}
           />
           <Route
-            path="/story"
+            path="/histoire"
             element={<StoryPage />}
           />
           {/* <Route path="/story" element={<StoryPage />} /> */}
