@@ -142,6 +142,22 @@
   }
 }
 
+@media screen and (min-height: 351px) and (max-width: 600px) {
+  .roleDetailsRoleImage {
+    width: 78px;
+  }
+
+  .roleDetailsTextContainer h4 {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+  }
+
+  .roleDetailsTextContainer p {
+    margin-bottom: 14px;
+    font-size: 0.85rem;
+  }
+}
+
 @media screen and (min-height: 601px) {
 
   .roleDetailsCardFooter {
