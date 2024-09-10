@@ -23,6 +23,15 @@ const RoleList = ({ roleListName }) => {
   const [rolePowers, setRolePowers] = useState("");
   const [roleDescription, setRoleDescription] = useState("");
 
+  /* const [imageLoaded, setImageLoaded] = useState({});
+    const handleLoadImage = (image) => {
+        setImageLoaded(prev => {[...prev, {loaded: true}]});
+    }
+    const isLoading = useMemo(
+        () => !(imageLoaded.every(loaded))
+        , [imageLoaded]
+    ) */
+
   useEffect(() => {
     /* console.log("useEffect roleListName " + roleListName);
     console.log("useEffect collectionName " + collectionName); */
@@ -115,7 +124,7 @@ const RoleList = ({ roleListName }) => {
                 "/" +
                 role.image +
                 ".png"
-              }
+        }
               alt=""
             />
             <p className="roleName">{role.name}</p>

@@ -11,7 +11,7 @@
 
 .roleDetailsCard {
   width: 90%;
-  /* height: 80%; */
+  height: 90%;
   max-width: 389px;
   /* max-height: 697px; */
   display: flex;
@@ -27,6 +27,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.roleDetailsCardContent::-webkit-scrollbar {
+  display: none;
+  border-radius: 10px;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.roleDetailsCardContent {
+  border-radius: 10px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .topCardImageContainer {
@@ -35,6 +49,10 @@
   background-image: url("../../assets/images/card-details-top-image.png");
   background-size: cover;
   background-position: center;
+}
+
+.topCardImageContent {
+  height: 127px;
 }
 
 /* .topCardImage {
@@ -58,19 +76,8 @@
 .roleDetailsTextContainer {
   height: 372px;
   margin: 0 50px;
-  overflow: scroll;
+  /* overflow: scroll; */
   color: #fff;
-}
-
-/* Hide scrollbar for Chrome, Safari and Opera */
-.roleDetailsTextContainer::-webkit-scrollbar {
-  display: none;
-}
-
-/* Hide scrollbar for IE, Edge and Firefox */
-.roleDetailsTextContainer {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
 }
 
 .roleDetailsTextContainer h4 {
@@ -94,4 +101,54 @@
   margin: 30px;
   display: flex;
   justify-content: end;
+}
+
+@media screen and (min-height: 600px) {
+
+  .topCardImageContent {
+    height: 112px;
+  }
+
+  .roleDetailsRoleImage {
+    width: 73px;
+  }
+
+  .roleDetailsRoleName {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .roleDetailsTextContainer {
+    margin: 0 35px;
+  }
+
+  .roleDetailsTextContainer h4 {
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+  }
+
+  .roleDetailsTextContainer p {
+    margin-bottom: 14px;
+    font-size: 0.8rem;
+  }
+
+  .roleDetailsCardFooter {
+    margin: 14px;
+  }
+
+  .roleDetailsCardFooter img {
+    height: 16px;
+  }
+}
+
+@media screen and (min-height: 601px) {
+
+  .roleDetailsCardFooter {
+    margin: 20px;
+  }
+
+  .roleDetailsCardFooter img {
+    height: 16px;
+  }
 }
