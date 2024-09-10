@@ -1,5 +1,6 @@
 .roleListContainerAndTitle {
-  height: calc(100% - 99px);
+  height: calc(100% - 90px);
+  width: 100%;
   overflow: scroll;
   display: flex;
   flex-direction: column;
@@ -14,8 +15,8 @@
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .roleListContainerAndTitle {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .pageTitle {
@@ -75,4 +76,10 @@
   font-family: "Lato", cursive;
   font-size: 0.8rem;
   color: #fff;
+}
+
+@media screen and (min-height: 325px) and (max-height: 900px) {
+  .roleListContainerAndTitle {
+    height: calc(100% - 55px);
+  }
 }

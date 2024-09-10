@@ -9,6 +9,8 @@ import solitaryActivated from "../../assets/images/solitary-role-menu-icon-outli
 import lore from "../../assets/images/lore-menu-icon-outlined.svg";
 import loreActivated from "../../assets/images/lore-menu-icon-outlined-activated.svg";
 import silhouette from "../../assets/images/main-menu-background.png";
+import silhouetteExtended from "../../assets/images/main-menu-background-extended-small-height.png";
+
 import { Link, useLocation } from "react-router-dom";
 
 const MainMenu = () => {
@@ -49,7 +51,7 @@ const MainMenu = () => {
           </Link>
         </div>
       </div>
-      <img className="mainMenuBackground" src={silhouette} alt="" />
+      <img className="mainMenuBackground" src={silhouetteExtended} alt="" />
     </div>
   );
 };
