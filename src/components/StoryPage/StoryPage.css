@@ -52,3 +52,67 @@
 .storyContainer {
 	text-align: left;
 }
+
+@media screen and (max-width: 280px) {
+  .pageTitle {
+    font-size: 1.2rem;
+  }
+
+  .roleListNameAndIcon {
+    margin-top: 14px;
+  }
+
+  .storyTitleAndIcon img {
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .storyTextContainer p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 325px) {
+
+  .roleListNameAndIcon {
+    margin-top: 14px;
+  }
+
+  .storyTitleAndIcon img {
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .storyTitleAndIcon h2 {
+    font-size: 1rem;
+  }
+
+  .roleListContainer {
+    margin-top: 28px;
+    gap: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 326px) and (max-width: 350px) {
+  .pageTitle {
+    margin-top: 35px;
+    font-size: 1.25rem;
+  }
+
+  .roleListNameAndIcon {
+    margin-top: 20px;
+  }
+
+  .storyTitleAndIcon img {
+    height: 1.2rem;
+    margin-right: 0.5rem;
+  }
+
+  .storyTitleAndIcon h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  
+}
