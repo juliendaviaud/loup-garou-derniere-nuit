@@ -136,7 +136,7 @@
   }
 }
 
-@media screen and (min-width: 326px) and (max-width: 400px) {
+@media screen and (min-width: 326px) and (max-width: 350px) {
   .pageTitle {
     margin-top: 35px;
     font-size: 1.25rem;
@@ -162,5 +162,16 @@
 
   .role {
     width: 92px;
+  }
+}
+
+@media screen and (min-width: 351px) and (max-width: 400px) {
+  .roleListContainer {
+    margin-top: 28px;
+    gap: 1.5rem;
+  }
+
+  .role {
+    width: 110px;
   }
 }
