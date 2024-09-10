@@ -38,6 +38,10 @@
   margin-bottom: 200px;
 }
 
+.storyContainer img {
+  width: 100%;
+}
+
 .storyTextContainer p {
   font-family: "Roboto", cursive;
   font-weight: 300;
