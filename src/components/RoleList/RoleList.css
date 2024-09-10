@@ -136,7 +136,7 @@
   }
 }
 
-@media screen and (min-width: 326px) and (max-width: 430px) {
+@media screen and (min-width: 326px) and (max-width: 400px) {
   .pageTitle {
     margin-top: 35px;
     font-size: 1.25rem;
