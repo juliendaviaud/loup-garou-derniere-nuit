@@ -57,6 +57,10 @@
   gap: 2.25rem;
 }
 
+.roleImgContainer {
+  height: 105px;
+}
+
 .role {
   width: 105px;
   display: flex;
@@ -67,6 +71,7 @@
 
 .roleImg {
   /* width: 127px; */
+  width: 100%;
   border-radius: 6px;
 }
 
@@ -106,6 +111,10 @@
   .role {
     width: 85px;
   }
+
+  .roleImgContainer {
+    height: 85px;
+  }
 }
 
 @media screen and (min-width: 281px) and (max-width: 325px) {
@@ -133,6 +142,10 @@
 
   .role {
     width: 89px;
+  }
+
+  .roleImgContainer {
+    height: 89px;
   }
 }
 
@@ -163,6 +176,10 @@
   .role {
     width: 92px;
   }
+
+  .roleImgContainer {
+    height: 92px;
+  }
 }
 
 @media screen and (min-width: 351px) and (max-width: 400px) {
@@ -173,5 +190,9 @@
 
   .role {
     width: 110px;
+  }
+
+  .roleImgContainer {
+    height: 110px;
   }
 }

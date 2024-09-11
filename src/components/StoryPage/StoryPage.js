@@ -6,7 +6,9 @@ import storyIcon from "../../assets/images/lore-menu-icon-outlined-activated.svg
 const StoryPage = () => {
   return (
     <div className="storyContainer">
-      <img src={storyImage} alt="" />
+      <div className="storyImageContainer">
+        <img src={storyImage} alt="" />
+      </div>
       <div className="storyTextAndTitleContainer">
         <div className="storyTitleAndIcon">
           <img className="storyImg" src={storyIcon} alt="" />

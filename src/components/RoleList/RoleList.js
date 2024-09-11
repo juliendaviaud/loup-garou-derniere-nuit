@@ -115,18 +115,20 @@ const RoleList = ({ roleListName }) => {
               )
             }
           >
-            <img
-              className="roleImg"
-              src={
-                window.location.origin +
-                "/images/" +
-                roleListName +
-                "/" +
-                role.image +
-                ".png"
-        }
-              alt=""
-            />
+            <div className="roleImgContainer">
+              <img
+                className="roleImg"
+                src={
+                  window.location.origin +
+                  "/images/" +
+                  roleListName +
+                  "/" +
+                  role.image +
+                  ".png"
+                }
+                alt=""
+              />
+            </div>
             <p className="roleName">{role.name}</p>
           </div>
         ))}
