@@ -1,6 +1,7 @@
 .roleDetails {
   width: 100%;
   height: 100svh;
+  max-width: 521px;
   position: absolute;
   z-index: 3;
   display: flex;
