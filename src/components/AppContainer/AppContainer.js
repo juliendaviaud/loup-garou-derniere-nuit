@@ -36,6 +36,7 @@ const AppContainer = () => {
             path="/histoire"
             element={<StoryPage />}
           />
+          <Route path="*" element={<RoleList roleListName="village" key="village" />} />
           {/* <Route path="/story" element={<StoryPage />} /> */}
         {/* <Route path="/signup" element={<Signup />} />
         <Route path="/forgetpassword" element={<ForgetPassword />} />
