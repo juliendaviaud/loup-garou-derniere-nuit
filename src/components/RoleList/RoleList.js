@@ -91,7 +91,11 @@ const RoleList = ({ roleListName }) => {
           alt=""
         />
         <h3 className="roleListName">
-          {roleListName.charAt(0).toUpperCase() + roleListName.slice(1)}
+          {roleListName === "village"
+              ? "Village"
+              : roleListName === "enemies"
+              ? "Ennemies"
+              : "Solitaires"}
         </h3>
       </div>
 

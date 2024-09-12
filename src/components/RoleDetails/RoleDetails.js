@@ -33,7 +33,9 @@ const RoleDetails = ({
             {/* <img className="topCardImage" src={topImage} alt="" /> */}
             <div className="topCardImageContent"></div>
           </div>
-          <img className="roleDetailsRoleImage" src={roleImage} alt="" />
+          <div className="roleDetailsRoleImageContainer">
+            <img className="roleDetailsRoleImage" src={roleImage} alt="" />
+          </div>
           <h3 className="roleDetailsRoleName">{roleName}</h3>
           <div className="roleDetailsTextContainer">
             <h4>Objectif</h4>

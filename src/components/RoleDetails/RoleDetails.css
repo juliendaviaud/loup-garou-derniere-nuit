@@ -59,9 +59,15 @@
 	width: 100%;
 } */
 
-.roleDetailsRoleImage {
-  width: 88px;
+.roleDetailsRoleImageContainer {
   margin-top: -40px;
+  height: 88px;
+  width: 88px;
+}
+
+.roleDetailsRoleImage {
+  height: 100%;
+  width: 100%;
 }
 
 .roleDetailsRoleName {
@@ -109,8 +115,10 @@
     height: 112px;
   }
 
-  .roleDetailsRoleImage {
+  .roleDetailsRoleImageContainer {
+    margin-top: -40px;
     width: 73px;
+    height: 73px;
   }
 
   .roleDetailsRoleName {
@@ -143,8 +151,10 @@
 }
 
 @media screen and (min-height: 351px) and (max-width: 600px) {
-  .roleDetailsRoleImage {
+
+  .roleDetailsRoleImageContainer {
     width: 78px;
+    height: 78px;
   }
 
   .roleDetailsTextContainer h4 {
@@ -159,6 +169,11 @@
 }
 
 @media screen and (min-height: 601px) {
+
+  .roleDetailsRoleImageContainer {
+    width: 78px;
+    height: 78px;
+  }
 
   .roleDetailsCardFooter {
     margin: 20px;

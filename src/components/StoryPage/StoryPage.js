@@ -7,7 +7,9 @@ const StoryPage = () => {
   return (
     <div className="storyContainer">
       <div className="storyImageContainer">
-        <img src={storyImage} alt="" />
+        <div className="storyImageContent">
+          {/* <img src={storyImage} alt="" /> */}
+        </div>
       </div>
       <div className="storyTextAndTitleContainer">
         <div className="storyTitleAndIcon">
