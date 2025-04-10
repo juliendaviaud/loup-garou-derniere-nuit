@@ -5,6 +5,10 @@ h1, h2, h3, h4, p {
   margin: 0;
 }
 
+p {
+    white-space: pre-line;
+}
+
 a {
   text-decoration: none;
 }
